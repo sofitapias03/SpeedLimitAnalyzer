@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SpeedLimitAnalyzer</title>
+        <link rel="stylesheet" href="landing.css">
+    </head>
+
+    <body>
+        <hr>
+        <h1>Enter coordinates and street name!</h1>
+        <hr>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="stack">
+                Point A
+                <input type="text" placeholder="Longitude" id="pointALON">
+                <input type="text" placeholder="Latitude" id="pointALAT">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="stack">
+                Street name
+                <input type="text" placeholder="Name" id="streetName">
+                 </div>
+            </div>
+            <div class="flex-item">
+                <div class="stack">
+                Points B
+                <input type="text" placeholder="Longitude" id="pointBLON">
+                <input type="text" placeholder="Latitude" id="pointBLAT">
+                </div>
+            </div>
+        </div>
+
+        <button type="button" onClick="clear()">Submit</button>
+        <script src="landing.js"></script>
+    </body>
+</html>
